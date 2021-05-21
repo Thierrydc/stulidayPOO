@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/stulidayPOO/public/assets/css/style.css">
     <title>Stuliday 2021</title>
 </head>
 <body>
@@ -39,7 +39,8 @@
         </nav>
     </header>
 
-<?php // var_dump($location);
+<?php
+    var_dump($location);
 
 ?>
 <!-- //? Ici pas besoin de boucle, puisque je ne récupère qu'un seul produit. -->
@@ -66,7 +67,7 @@
         <p>2021 Tout droits réservés | Thierry del Castillo</p>
     </footer>
 
-    <script src="./assets/lib/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="/stulidayPOO/public/assets/lib/jquery-3.6.0.min.js"></script>
+    <script src="/stulidayPOO/public/assets/js/script.js"></script>
 </body>
 </html>

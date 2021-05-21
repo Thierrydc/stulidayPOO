@@ -56,7 +56,7 @@
                         foreach ($locations as $location) {
                             ?>
                     <div class="card content">
-                        <a href="../templates/location.php?id=<?php echo $location->getId(); ?>">
+                        <a href="location/<?php echo $location->getId(); ?>">
                             <div class="card-content">
                                 <h5><?php echo $location->getTitle(); ?></h5>
                                 <img class="block" src="<?php echo !empty($location->getPhoto()) ? './public/uploads/'.$location->getPhoto() : 'assets/img/pasdephoto.jpg'; ?>" alt="photo de la maison">
