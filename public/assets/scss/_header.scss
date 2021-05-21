@@ -1,0 +1,66 @@
+
+
+header {
+    
+    nav {
+        background-color: white;
+        height: 80px;
+        width: 100%;
+        top: 0;
+        justify-content: space-between;
+        align-items: flex-start;
+        box-shadow: 0 1px 16px rgba(0, 0, 0, .4);
+
+        #menuNav {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            
+            #burger {
+                cursor: pointer;
+                display: none;
+                padding: 0 1rem;
+                position: relative;
+                top: 8px;
+
+                a {
+                    color: $color3;
+                }
+            }
+    
+            #logo {
+                width: 70px;
+    
+                img {
+                    width: 100%;
+                }
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                text-transform: uppercase;
+                margin: 1.5rem 0;
+            
+                li {
+                    color: $color3;
+                    cursor: pointer;
+                    font-size: 0.9em;
+    
+                    &:hover a {
+                        color: $color1;
+                        text-decoration: underline;
+
+                    }
+                    a {
+                        color: $color3;
+                        border-left: 1px solid $color3;
+                        padding: 0 1em;
+                    }
+                }
+            } 
+        }
+    }
+
+}
